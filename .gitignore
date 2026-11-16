@@ -1,0 +1,17 @@
+# compiled exploit
+logslip
+*.o
+
+# core dumps
+*.core
+core.*
+vgcore.*
+
+# macOS
+.DS_Store
+
+# editor
+*.swp
+*.swo
+*~
+.idea/
