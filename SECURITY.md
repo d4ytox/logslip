@@ -30,5 +30,4 @@ path of anything dropped is printed on a win so you can clean up.
 Local privilege escalation from an unprivileged user to root by winning the
 microsecond window between logrotate's rename and create, swapping the log
 directory for a symlink so root writes an attacker-controlled file into a
-privileged directory. The mitigation is the `su` directive, a root-owned
-non-writable log directory, or a MAC policy; any one of them closes it.
+privileged directory. 
